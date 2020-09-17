@@ -1,0 +1,994 @@
+fileFormatVersion: 2
+guid: 84821c362ce2a9d4a8edf5c2268186f3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4456546489502066182
+    second: Props_Misc_Farm_0
+  - first:
+      213: -8633891096000457032
+    second: Props_Misc_Farm_1
+  - first:
+      213: 1451403734442381282
+    second: Props_Misc_Farm_2
+  - first:
+      213: 6450359244349863330
+    second: Props_Misc_Farm_3
+  - first:
+      213: -5463998812293541792
+    second: Props_Misc_Farm_4
+  - first:
+      213: 8112894996908631954
+    second: Props_Misc_Farm_5
+  - first:
+      213: 2913123423334471122
+    second: Props_Misc_Farm_6
+  - first:
+      213: 4713074762400548923
+    second: Props_Misc_Farm_7
+  - first:
+      213: 1402819593376668073
+    second: Props_Misc_Farm_8
+  - first:
+      213: -7208680849367111059
+    second: Props_Misc_Farm_9
+  - first:
+      213: 3329121367075766994
+    second: Props_Misc_Farm_10
+  - first:
+      213: 1038560706758930574
+    second: Props_Misc_Farm_11
+  - first:
+      213: 6026438141669588759
+    second: Props_Misc_Farm_12
+  - first:
+      213: 236110340232581895
+    second: Props_Misc_Farm_13
+  - first:
+      213: -7443627355676351654
+    second: Props_Misc_Farm_14
+  - first:
+      213: -4081790683151072607
+    second: Props_Misc_Farm_15
+  - first:
+      213: -4956972411830486140
+    second: Props_Misc_Farm_16
+  - first:
+      213: -2829062198149987234
+    second: Props_Misc_Farm_17
+  - first:
+      213: -2925104896139086461
+    second: Props_Misc_Farm_18
+  - first:
+      213: 2846383116064463600
+    second: Props_Misc_Farm_19
+  - first:
+      213: 464549409865113900
+    second: Props_Misc_Farm_20
+  - first:
+      213: 1682704763215340849
+    second: Props_Misc_Farm_21
+  - first:
+      213: -7406030197555828223
+    second: Props_Misc_Farm_22
+  - first:
+      213: -7354378136910119857
+    second: Props_Misc_Farm_23
+  - first:
+      213: 6268499861532307939
+    second: Props_Misc_Farm_24
+  - first:
+      213: -6332644331657311749
+    second: Props_Misc_Farm_25
+  - first:
+      213: 8239701257914491799
+    second: Props_Misc_Farm_26
+  - first:
+      213: 7836567371539753951
+    second: Props_Misc_Farm_27
+  - first:
+      213: 1991275150442799793
+    second: Props_Misc_Farm_28
+  - first:
+      213: -5819432647746169220
+    second: Props_Misc_Farm_29
+  - first:
+      213: 3203407230634345454
+    second: Props_Misc_Farm_30
+  - first:
+      213: -9140794113402945965
+    second: Props_Misc_Farm_31
+  - first:
+      213: 1296325798504965528
+    second: Props_Misc_Farm_32
+  - first:
+      213: 32603261006143714
+    second: Props_Misc_Farm_33
+  - first:
+      213: -4994583693222963025
+    second: Props_Misc_Farm_34
+  - first:
+      213: -4793996132832759278
+    second: Props_Misc_Farm_35
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 85
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 85
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 29
+    textureCompression: 1
+    compressionQuality: 60
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 85
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Props_Misc_Farm_0
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 1927
+        width: 502
+        height: 423
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d617644cbf6d354f93057cd9e0de9de
+      internalID: 4456546489502066182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Misc_Farm_1
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1887
+        width: 63
+        height: 159
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80dcd04072e3e9e45b2f3cf9ba84b410
+      internalID: -8633891096000457032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Misc_Farm_2
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 1803
+        width: 653
+        height: 303
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508c92b63cb6d1c4e933fc61d21554ba
+      internalID: 1451403734442381282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Misc_Farm_3
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 1895
+        width: 64
+        height: 158
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b198af00aea5fdf40b598778fd18f229
+      internalID: 6450359244349863330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Misc_Farm_4
+      rect:
+        serializedVersion: 2
+        x: 2413
+        y: 1937
+        width: 492
+        height: 424
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fefdb21ddb5e33e43bfde045f6b7c510
+      internalID: -5463998812293541792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Misc_Farm_5
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 1779
+        width: 124
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f01e2fe96fee147941810b519ca653
+      internalID: 8112894996908631954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Misc_Farm_6
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 1709
+        width: 369
+        height: 174
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1838a5bf605135649b3ff5a03e48e4de
+      internalID: 2913123423334471122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Misc_Farm_7
+      rect:
+        serializedVersion: 2
+        x: 2415
+        y: 1711
+        width: 367
+        height: 172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613b7a19b2b94134a893c9aaf712c6ae
+      internalID: 4713074762400548923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Misc_Farm_8
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 1490
+        width: 63
+        height: 160
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c713ed2ef5259de4ca069aad1241de27
+      internalID: 1402819593376668073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Misc_Farm_9
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 1391
+        width: 565
+        height: 325
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f249b2c05803a74588f6fdfd843618b
+      internalID: -7208680849367111059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Misc_Farm_10
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 1619
+        width: 58
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03519fef6acc6134eb768562bb172a98
+      internalID: 3329121367075766994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Misc_Farm_11
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 1620
+        width: 58
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3531d2d73796604f85110754b09c1db
+      internalID: 1038560706758930574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Misc_Farm_12
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 1619
+        width: 58
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097b684bd0f38354e81d2b7aa1cbe10c
+      internalID: 6026438141669588759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Misc_Farm_13
+      rect:
+        serializedVersion: 2
+        x: 2115
+        y: 1495
+        width: 164
+        height: 168
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5576cba1c988e04484dedd3235ef9af
+      internalID: 236110340232581895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Misc_Farm_14
+      rect:
+        serializedVersion: 2
+        x: 2381
+        y: 1321
+        width: 440
+        height: 317
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282f97308edfc4047a003fd4d0fc76f2
+      internalID: -7443627355676351654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Misc_Farm_15
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 1439
+        width: 214
+        height: 129
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05df8ce7fb782664eb210a896c479daa
+      internalID: -4081790683151072607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Misc_Farm_16
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 1449
+        width: 213
+        height: 119
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a49787a6f4589649a6f01aef8d07f4f
+      internalID: -4956972411830486140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Misc_Farm_17
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 785
+        width: 140
+        height: 582
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd97d3aecf523543b4e2752413796e8
+      internalID: -2829062198149987234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Misc_Farm_18
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 1306
+        width: 213
+        height: 121
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fbdf47e898b6914bac00f1c114cf295
+      internalID: -2925104896139086461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Misc_Farm_19
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 1306
+        width: 119
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3666d2fe37222664cb0a7cfc0eba214b
+      internalID: 2846383116064463600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Misc_Farm_20
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 850
+        width: 289
+        height: 425
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a1597947a29604e9cf770c690cbbd6
+      internalID: 464549409865113900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Misc_Farm_21
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 959
+        width: 180
+        height: 243
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22474dd938547a946a252045bc639d81
+      internalID: 1682704763215340849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Misc_Farm_22
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 1158
+        width: 213
+        height: 141
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a631e564654c9429228dc9ed0af97f
+      internalID: -7406030197555828223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Misc_Farm_23
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 1076
+        width: 174
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d2ec77e3bd8d44fb42a7d659a165ed
+      internalID: -7354378136910119857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Misc_Farm_24
+      rect:
+        serializedVersion: 2
+        x: 2326
+        y: 923
+        width: 783
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ad9a355cd2a8e4691b4c50916b78b8
+      internalID: 6268499861532307939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Misc_Farm_26
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 937
+        width: 250
+        height: 190
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2cf301b0411b444badd53a1a5c3bbd2
+      internalID: 8239701257914491799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Misc_Farm_27
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 935
+        width: 194
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46400fc0b5d54844da04b7ad855a14d0
+      internalID: 7836567371539753951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Misc_Farm_28
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 935
+        width: 174
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7eaf51819272d48a226fb602cf1f69
+      internalID: 1991275150442799793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Misc_Farm_29
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 838
+        width: 60
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6bc92cff6054ad42b4ff22398b70b18
+      internalID: -5819432647746169220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Misc_Farm_30
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 836
+        width: 58
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3037a19a64ae148b2614d0ea9d4cb6
+      internalID: 3203407230634345454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Misc_Farm_31
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 836
+        width: 63
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5413b01d66ce5740a2ba6a0904efc7f
+      internalID: -9140794113402945965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Misc_Farm_32
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 816
+        width: 99
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843b177315d7ef9459eddf882f052a80
+      internalID: 1296325798504965528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Misc_Farm_33
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 816
+        width: 99
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a700ca6fe1722479bad041d86ce9c5
+      internalID: 32603261006143714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Misc_Farm_34
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 811
+        width: 96
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e7775b3249986448c0499f35e7f1a7
+      internalID: -4994583693222963025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Misc_Farm_35
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 0
+        width: 2317
+        height: 751
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41763d2603746d4aabec569cefc1185
+      internalID: -4793996132832759278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Misc_Farm_25
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 1115
+        width: 247
+        height: 188
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9ccaa388ded18a0800000000000000
+      internalID: -6332644331657311749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 71664de17e24a334caf7c61a8bb0f90f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

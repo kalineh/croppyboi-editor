@@ -1,0 +1,688 @@
+fileFormatVersion: 2
+guid: 69e82fa9683825e48bb6b7f7d34e2453
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 980473267597855577
+    second: World_Props_0
+  - first:
+      213: 7597366087823058974
+    second: World_Props_1
+  - first:
+      213: -4024238454754246363
+    second: World_Props_2
+  - first:
+      213: 4808516464586322185
+    second: World_Props_3
+  - first:
+      213: 5058691510298202029
+    second: World_Props_4
+  - first:
+      213: -8094223422124416797
+    second: World_Props_5
+  - first:
+      213: -4152905085947671125
+    second: World_Props_6
+  - first:
+      213: -8853114796727615160
+    second: World_Props_7
+  - first:
+      213: -6113540026211581194
+    second: World_Props_8
+  - first:
+      213: -6861193182424123608
+    second: World_Props_9
+  - first:
+      213: 1686764557927148734
+    second: World_Props_10
+  - first:
+      213: -7668333594562248856
+    second: World_Props_11
+  - first:
+      213: 99130368922812344
+    second: World_Props_12
+  - first:
+      213: 2885818836214776651
+    second: World_Props_13
+  - first:
+      213: 8549729678975522163
+    second: World_Props_14
+  - first:
+      213: -3918267445890043475
+    second: World_Props_15
+  - first:
+      213: 7555525029726636786
+    second: World_Props_16
+  - first:
+      213: 2063359113362442805
+    second: World_Props_17
+  - first:
+      213: -1005601106642056852
+    second: World_Props_18
+  - first:
+      213: 2225090728553835248
+    second: World_Props_19
+  - first:
+      213: 1514363012798223592
+    second: World_Props_20
+  - first:
+      213: -4147005409307424760
+    second: World_Props_21
+  - first:
+      213: 2096629328210098248
+    second: World_Props_22
+  - first:
+      213: 3073885204021592252
+    second: World_Props_23
+  - first:
+      213: 2231498890058850056
+    second: World_Props_24
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 85
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 85
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 29
+    textureCompression: 1
+    compressionQuality: 60
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 85
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: World_Props_0
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1041
+        width: 813
+        height: 972
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791c0ef2c1c6814418b52f76481620a6
+      internalID: 980473267597855577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_Props_1
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1040
+        width: 50
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611e5325c10a2c64892e3b2e38830f9c
+      internalID: 7597366087823058974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_Props_2
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 1028
+        width: 816
+        height: 974
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1bc22f47d552194c9d67299cfb080f5
+      internalID: -4024238454754246363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_Props_3
+      rect:
+        serializedVersion: 2
+        x: 2349
+        y: 1009
+        width: 813
+        height: 973
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970907fa0fda91a4b9651d42518871d8
+      internalID: 4808516464586322185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_Props_4
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 0
+        width: 813
+        height: 975
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c674a4b3951058c48841f12eca5eb75f
+      internalID: 5058691510298202029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_Props_5
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 785
+        width: 122
+        height: 124
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a296d517e849534a8b37f59616e7577
+      internalID: -8094223422124416797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_Props_6
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 785
+        width: 161
+        height: 144
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e60a1a90d76514c902c587e79cee95
+      internalID: -4152905085947671125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_Props_7
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 803
+        width: 46
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e6d2d6a694bad84cbdbf8c85ddb7872
+      internalID: -8853114796727615160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_Props_8
+      rect:
+        serializedVersion: 2
+        x: 1982
+        y: 797
+        width: 67
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26dd75909cc7ff4e993a7e16242c95e
+      internalID: -6113540026211581194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_Props_10
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 45
+        width: 549
+        height: 918
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef3ef4b18d3c3ef4e923a251b03b8934
+      internalID: 1686764557927148734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_Props_11
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 584
+        width: 98
+        height: 149
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2cec58181d0064d82aac6e1ce0fb72
+      internalID: -7668333594562248856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_Props_12
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 596
+        width: 131
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d2d9e1d4e58a64eb5e8382bddf68c9
+      internalID: 99130368922812344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_Props_13
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 651
+        width: 62
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f3de8177938a646a9c1572fbbb1b06
+      internalID: 2885818836214776651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_Props_14
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 580
+        width: 142
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef071217adb6dea43959fe200f28e265
+      internalID: 8549729678975522163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_Props_15
+      rect:
+        serializedVersion: 2
+        x: 2107
+        y: 564
+        width: 303
+        height: 191
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bad0ae6058f17f40979688c8a17b18c
+      internalID: -3918267445890043475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_Props_16
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 406
+        width: 160
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550b1ebd301f39346938b8eec13bbe13
+      internalID: 7555525029726636786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_Props_17
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 412
+        width: 148
+        height: 124
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83eba6b4992d3e2498c16ca736eb1b9e
+      internalID: 2063359113362442805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_Props_18
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 422
+        width: 146
+        height: 124
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37008eabe7dadb1419e8c9a62c39be60
+      internalID: -1005601106642056852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_Props_19
+      rect:
+        serializedVersion: 2
+        x: 2071
+        y: 426
+        width: 160
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a351cb321aa20184693445ebee6f6cc5
+      internalID: 2225090728553835248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_Props_20
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 262
+        width: 160
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d49dc90615c3604c9cc65c791d6365b
+      internalID: 1514363012798223592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_Props_21
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 262
+        width: 148
+        height: 122
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf9df011ec765641924aa7e40b3d124
+      internalID: -4147005409307424760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_Props_22
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 264
+        width: 146
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841911aa9a362e94089f820b143702a6
+      internalID: 2096629328210098248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_Props_23
+      rect:
+        serializedVersion: 2
+        x: 2085
+        y: 272
+        width: 160
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f6150a02b844c49b1e9601447c3fcf
+      internalID: 3073885204021592252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a65e9f4239a2774418f55b525c56ce32
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

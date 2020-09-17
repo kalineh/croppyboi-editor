@@ -1,0 +1,1066 @@
+fileFormatVersion: 2
+guid: 1d891b8229210004fb7d06897e1e609a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 600787656912180804
+    second: PlayerSprites_0
+  - first:
+      213: -6573777416417220690
+    second: PlayerSprites_1
+  - first:
+      213: 3561037995832689329
+    second: PlayerSprites_2
+  - first:
+      213: 5670999935819666744
+    second: PlayerSprites_3
+  - first:
+      213: -6556743904625465184
+    second: PlayerSprites_4
+  - first:
+      213: 7777069500747275281
+    second: PlayerSprites_5
+  - first:
+      213: -1907178489979809653
+    second: PlayerSprites_6
+  - first:
+      213: 5458758677676582336
+    second: PlayerSprites_7
+  - first:
+      213: 1650604073877677656
+    second: PlayerSprites_8
+  - first:
+      213: -1202370827357078574
+    second: PlayerSprites_9
+  - first:
+      213: 1226698290922342999
+    second: PlayerSprites_10
+  - first:
+      213: -2650982196621262989
+    second: PlayerSprites_11
+  - first:
+      213: 4906320411871050636
+    second: PlayerSprites_12
+  - first:
+      213: -3446259362212464047
+    second: PlayerSprites_13
+  - first:
+      213: 6911948736729229215
+    second: PlayerSprites_14
+  - first:
+      213: 4984640475262563321
+    second: PlayerSprites_15
+  - first:
+      213: -3731662067933768952
+    second: PlayerSprites_16
+  - first:
+      213: -3665499182118038063
+    second: PlayerSprites_17
+  - first:
+      213: -527969473550898579
+    second: PlayerSprites_18
+  - first:
+      213: -5335293324663507051
+    second: PlayerSprites_19
+  - first:
+      213: -4696992072520464199
+    second: PlayerSprites_20
+  - first:
+      213: 7184684719435276893
+    second: PlayerSprites_21
+  - first:
+      213: 2296633166852407765
+    second: PlayerSprites_22
+  - first:
+      213: 2187212451455908630
+    second: PlayerSprites_23
+  - first:
+      213: -8331322116368789667
+    second: PlayerSprites_24
+  - first:
+      213: 2645544960966311433
+    second: PlayerSprites_25
+  - first:
+      213: 7659029137066544238
+    second: PlayerSprites_26
+  - first:
+      213: 2572769797556459918
+    second: PlayerSprites_27
+  - first:
+      213: -3923348717286062498
+    second: SpritesPlayer_0
+  - first:
+      213: 9078393575687445038
+    second: SpritesPlayer_1
+  - first:
+      213: -8780370142144446984
+    second: SpritesPlayer_2
+  - first:
+      213: -2521169157709781741
+    second: SpritesPlayer_3
+  - first:
+      213: -4513041180793423339
+    second: SpritesPlayer_4
+  - first:
+      213: -4162498154889875299
+    second: SpritesPlayer_5
+  - first:
+      213: -8659161933857912188
+    second: SpritesPlayer_6
+  - first:
+      213: 8288769601492031083
+    second: SpritesPlayer_7
+  - first:
+      213: 4753830708069591455
+    second: SpritesPlayer_8
+  - first:
+      213: -2122375495121144725
+    second: SpritesPlayer_9
+  - first:
+      213: 5685826979416517759
+    second: SpritesPlayer_10
+  - first:
+      213: -2044834315182099557
+    second: SpritesPlayer_11
+  - first:
+      213: 8444836250192424370
+    second: SpritesPlayer_12
+  - first:
+      213: 776463556719739628
+    second: SpritesPlayer_13
+  - first:
+      213: -6637899807141013899
+    second: SpritesPlayer_14
+  - first:
+      213: -6021716310801052220
+    second: SpritesPlayer_15
+  - first:
+      213: -7079935790539389498
+    second: SpritesPlayer_16
+  - first:
+      213: 4284127217901922432
+    second: SpritesPlayer_17
+  - first:
+      213: -5525738891962893487
+    second: SpritesPlayer_18
+  - first:
+      213: -6879995947718607301
+    second: SpritesPlayer_19
+  - first:
+      213: 8478163578061133738
+    second: SpritesPlayer_20
+  - first:
+      213: 5549672511543337303
+    second: SpritesPlayer_21
+  - first:
+      213: -1847213981459036878
+    second: SpritesPlayer_22
+  - first:
+      213: 6962978719231641095
+    second: SpritesPlayer_23
+  - first:
+      213: 5627586018076275327
+    second: SpritesPlayer_24
+  - first:
+      213: 300228762022325625
+    second: SpritesPlayer_25
+  - first:
+      213: 6515815998226085612
+    second: SpritesPlayer_26
+  - first:
+      213: 7989788075335103560
+    second: SpritesPlayer_27
+  - first:
+      213: 6212358018092546742
+    second: SpritesPlayerRoyal_0
+  - first:
+      213: -8356762496604985180
+    second: SpritesPlayerRoyal_1
+  - first:
+      213: -4000207016343080851
+    second: SpritesPlayerRoyal_2
+  - first:
+      213: 5530286024550531412
+    second: SpritesPlayerRoyal_3
+  - first:
+      213: -9050833182922318181
+    second: SpritesPlayerRoyal_4
+  - first:
+      213: -594905293882150173
+    second: SpritesPlayerRoyal_5
+  - first:
+      213: -2380740953847228412
+    second: SpritesPlayerRoyal_6
+  - first:
+      213: 6243980636628959089
+    second: SpritesPlayerRoyal_7
+  - first:
+      213: -4244610739718350530
+    second: SpritesPlayerRoyal_8
+  - first:
+      213: 5780711799696983275
+    second: SpritesPlayerRoyal_9
+  - first:
+      213: -8961109843587893928
+    second: SpritesPlayerRoyal_10
+  - first:
+      213: -2990611974983643808
+    second: SpritesPlayerRoyal_11
+  - first:
+      213: -1174069548305920384
+    second: SpritesPlayerRoyal_12
+  - first:
+      213: 4873267319779588761
+    second: SpritesPlayerRoyal_13
+  - first:
+      213: 2735895862158191246
+    second: SpritesPlayerRoyal_14
+  - first:
+      213: -3303971856651314472
+    second: SpritesPlayerRoyal_15
+  - first:
+      213: -1002361590009656144
+    second: SpritesPlayerRoyal_16
+  - first:
+      213: -8496071153315467941
+    second: SpritesPlayerRoyal_17
+  - first:
+      213: 7867291646887950634
+    second: SpritesPlayerRoyal_18
+  - first:
+      213: 2781928437943487419
+    second: SpritesPlayerRoyal_19
+  - first:
+      213: -6354490062938445954
+    second: SpritesPlayerRoyal_20
+  - first:
+      213: -7088088608534228055
+    second: SpritesPlayerRoyal_21
+  - first:
+      213: -3182562281274997443
+    second: SpritesPlayerRoyal_22_ActionS
+  - first:
+      213: 4655471338131036489
+    second: SpritesPlayerRoyal_23_ActionN
+  - first:
+      213: 4580268752714354311
+    second: SpritesPlayerRoyal_24
+  - first:
+      213: -1736937309321525379
+    second: SpritesPlayerRoyal_25
+  - first:
+      213: -8546144404904248626
+    second: SpritesPlayerRoyal_26
+  - first:
+      213: 2982276575131038426
+    second: SpritesPlayerRoyal_27
+  - first:
+      213: 7781429567864973747
+    second: SpritesPlayerRoyal_28
+  - first:
+      213: 3520451524374256927
+    second: SpritesPlayerRoyal_29
+  - first:
+      213: -2634126537713828303
+    second: SpritesPlayerRoyal_30_ActionE
+  - first:
+      213: 5303755601659852995
+    second: SpritesPlayerRoyal_31_ActionW
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 85
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 85
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 85
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 29
+    textureCompression: 1
+    compressionQuality: 60
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpritesPlayerRoyal_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 256
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2df01dd875487a45886ddc22813e963
+      internalID: 6212358018092546742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesPlayerRoyal_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1536
+        width: 256
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ad8be0038d6d24bad26d0842534109
+      internalID: -8356762496604985180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesPlayerRoyal_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1536
+        width: 256
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2311789ad5db4f54aa7d79f00f993fb5
+      internalID: -4000207016343080851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesPlayerRoyal_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1536
+        width: 256
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e5e6836fb67a8642b3ae4cf73dd6b19
+      internalID: 5530286024550531412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesPlayerRoyal_4
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1536
+        width: 256
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ddc62f071275e4bb4910abc3315cb8
+      internalID: -9050833182922318181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesPlayerRoyal_5
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1536
+        width: 256
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb9b5e6061dec7488af9a8fb9c75604
+      internalID: -594905293882150173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesPlayerRoyal_6
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1536
+        width: 256
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d701b423084d8bb439a3735c34a6d7c1
+      internalID: -2380740953847228412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesPlayerRoyal_7
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1536
+        width: 256
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6475b2fafb9f345458bdc837c578b76a
+      internalID: 6243980636628959089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesPlayerRoyal_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 256
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962f8f1b68189da49bc9f420c9f4f04f
+      internalID: -4244610739718350530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesPlayerRoyal_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1024
+        width: 256
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dfc5254ea2d8824d83097593ee7ef50
+      internalID: 5780711799696983275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesPlayerRoyal_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 256
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359b908e3411ec04caa8642e80d89b7c
+      internalID: -8961109843587893928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesPlayerRoyal_11
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1024
+        width: 256
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9286c7e7694bd34409f4d506d7548846
+      internalID: -2990611974983643808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesPlayerRoyal_12
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 256
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0ef05127426764ebeab22540bf61dc
+      internalID: -1174069548305920384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesPlayerRoyal_13
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1024
+        width: 256
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86caa8dc0e4719745b393a2b955b3ffc
+      internalID: 4873267319779588761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesPlayerRoyal_14
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1024
+        width: 256
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee70453e8c55b945b36e567743d1f5a
+      internalID: 2735895862158191246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesPlayerRoyal_15
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1024
+        width: 256
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73fabbf7ba3fee438035582f9f36702
+      internalID: -3303971856651314472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesPlayerRoyal_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4c59514b97e5e4481eabc22e69abdf
+      internalID: -1002361590009656144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesPlayerRoyal_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3410ca72ea851e14abdbfdbf7244293b
+      internalID: -8496071153315467941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesPlayerRoyal_18
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904b3b20ca1b74f44a744f780c9f8e81
+      internalID: 7867291646887950634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesPlayerRoyal_19
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8c7d1c8fea2c64fb750013e8a90028
+      internalID: 2781928437943487419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesPlayerRoyal_20
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 256
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab45412f1fe2ef0449b6532b612db295
+      internalID: -6354490062938445954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesPlayerRoyal_21
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 256
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1714e9d171e63e4396954f5cbd532ac
+      internalID: -7088088608534228055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesPlayerRoyal_22_ActionS
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 256
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92853f1b14e252248865c0e5beee26e9
+      internalID: -3182562281274997443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesPlayerRoyal_23_ActionN
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 256
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494a6b7006bfbe3418ce1c6a81c32ca2
+      internalID: 4655471338131036489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesPlayerRoyal_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279904e9ed7a9b849998607eefb52221
+      internalID: 4580268752714354311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesPlayerRoyal_25
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6a38f4df685ed47ab27edc9a8d351a
+      internalID: -1736937309321525379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesPlayerRoyal_26
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76b7947c81ec9c47902eb46174caa51
+      internalID: -8546144404904248626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesPlayerRoyal_27
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34dd04d6649bcf4ba6132ced573a1a4
+      internalID: 2982276575131038426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesPlayerRoyal_28
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 256
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e17028986ab7a744a2e292871ee4ead
+      internalID: 7781429567864973747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesPlayerRoyal_29
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 256
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6522ab2f9fb5f954faf5653641f24ab7
+      internalID: 3520451524374256927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesPlayerRoyal_30_ActionE
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 256
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55ff7959ba07ac49b9ce1f96035ae95
+      internalID: -2634126537713828303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesPlayerRoyal_31_ActionW
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 256
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cddc8e513415a1b4995831e29d9ba2b7
+      internalID: 5303755601659852995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5a4f89ecf5ba9514f90054d8a1c3d5a4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

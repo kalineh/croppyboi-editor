@@ -13,17 +13,17 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Ground
+  - Wall
+  - Character
+  - Interactable
+  - Item
+  - IndoorMask
+  - IndoorVolume
+  - FarmZone
+  - WallDynamic
+  - AmbientTrigger
+  - AmbientToucher
   - 
   - 
   - 
@@ -40,4 +40,28 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Tilemaps
+    uniqueID: 2765323313
+    locked: 0
+  - name: Ground
+    uniqueID: 3518559969
+    locked: 0
+  - name: Characters
+    uniqueID: 2010979997
+    locked: 0
+  - name: Roof
+    uniqueID: 1695227059
+    locked: 0
+  - name: Wall
+    uniqueID: 2216510841
+    locked: 0
+  - name: IndoorOcclusion
+    uniqueID: 1112731461
+    locked: 0
+  - name: Effects
+    uniqueID: 4007866693
+    locked: 0
+  - name: UI
+    uniqueID: 158609491
     locked: 0

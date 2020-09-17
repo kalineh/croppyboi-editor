@@ -1,0 +1,634 @@
+fileFormatVersion: 2
+guid: f20ad29b2497b484a85a546f09de55f6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2855558888728888198
+    second: TouchControlsUI_0
+  - first:
+      213: -4398246911179074851
+    second: TouchControlsUI_1
+  - first:
+      213: -8344261844300678072
+    second: TouchControlsUI_2
+  - first:
+      213: -7384557770845709384
+    second: TouchControlsUI_3
+  - first:
+      213: -3124348514131508399
+    second: TouchControlsUI_4
+  - first:
+      213: 3681214688676881264
+    second: TouchControlsUI_5
+  - first:
+      213: -4223320595255596934
+    second: TouchControlsUI_6
+  - first:
+      213: 445659034518950630
+    second: TouchControlsUI_7
+  - first:
+      213: -6494025735921159310
+    second: TouchControlsUI_8
+  - first:
+      213: -3741778873106912100
+    second: TouchControlsUI_9
+  - first:
+      213: -6520382364614769099
+    second: TouchControlsUI_10
+  - first:
+      213: -3512479986895544211
+    second: TouchControlsUI_11
+  - first:
+      213: 2033517087236968233
+    second: TouchControlsUI_12
+  - first:
+      213: 6905329673215011222
+    second: TouchControlsUI_13
+  - first:
+      213: 5460526056971998369
+    second: TouchControlsUI_14
+  - first:
+      213: -4169019583908876210
+    second: TouchControlsUI_15
+  - first:
+      213: -1929043485633675806
+    second: TouchControlsUI_16
+  - first:
+      213: -1914085526372009022
+    second: TouchControlsUI_17
+  - first:
+      213: 7621999425207434778
+    second: TouchControlsUI_18
+  - first:
+      213: -1927346308196580504
+    second: TouchControlsUI_19
+  - first:
+      213: 7688953590588598767
+    second: TouchControlsUI_20
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 85
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 85
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 29
+    textureCompression: 1
+    compressionQuality: 60
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 85
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TouchControlsUI_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 905
+        width: 107
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78bd48ecef83a3c4b9d1ecac16095ad0
+      internalID: -2855558888728888198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TouchControlsUI_1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 905
+        width: 107
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b34f0dee7212254e8cdbb86e84db451
+      internalID: -4398246911179074851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TouchControlsUI_2
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 905
+        width: 107
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5468303f028bd64197123ba56de1399
+      internalID: -8344261844300678072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TouchControlsUI_3
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 905
+        width: 107
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a49a8d4690559245a4a0f2cf8d4b912
+      internalID: -7384557770845709384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TouchControlsUI_4
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 905
+        width: 107
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b932c5302f339f42b6c54abe370815e
+      internalID: -3124348514131508399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TouchControlsUI_5
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 905
+        width: 107
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d1450b44885654583069a80a6ad00a
+      internalID: 3681214688676881264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TouchControlsUI_6
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 905
+        width: 107
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a9e576eb3e3834abedfccdf8f57989
+      internalID: -4223320595255596934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TouchControlsUI_7
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 905
+        width: 107
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7899232a998fd324db1196738626de66
+      internalID: 445659034518950630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TouchControlsUI_8
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 776
+        width: 107
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca2ab91d87aea941a54b5db498ddf2c
+      internalID: -6494025735921159310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TouchControlsUI_9
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 776
+        width: 107
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499826d2c164c704e9550cc90f38bdca
+      internalID: -3741778873106912100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TouchControlsUI_10
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 776
+        width: 107
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae0c43fcea25e64881634889c4ed1ae
+      internalID: -6520382364614769099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TouchControlsUI_11
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 776
+        width: 107
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed7d1c800d70934ea1dbd882852876b
+      internalID: -3512479986895544211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TouchControlsUI_12
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 776
+        width: 107
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283ac6799fb61fa4099b2857e59484c7
+      internalID: 2033517087236968233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TouchControlsUI_13
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 776
+        width: 107
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c5a24d8cc13924891b1b125f3abd20
+      internalID: 6905329673215011222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TouchControlsUI_14
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 776
+        width: 107
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6198cad3e4d674a98544983501fc76
+      internalID: 5460526056971998369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TouchControlsUI_15
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 776
+        width: 107
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b804f3f94a4a434d9fdcb1b964fc73d
+      internalID: -4169019583908876210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TouchControlsUI_16
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 646
+        width: 94
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944e65af5b4149a4397a3038443be6a3
+      internalID: -1929043485633675806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TouchControlsUI_17
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 645
+        width: 94
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb7dafa2e27a7e64281a4c1436de592e
+      internalID: -1914085526372009022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TouchControlsUI_18
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 647
+        width: 116
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a62aac917365544babd0330e01b0ac
+      internalID: 7621999425207434778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TouchControlsUI_19
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 668
+        width: 116
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b432b932b0a6e41bbd6098bb183dd5
+      internalID: -1927346308196580504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TouchControlsUI_20
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 648
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe96f758d86a4ba60800000000000000
+      internalID: 7688953590588598767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: cb8601877002a8b45a90f97da4d4ded8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

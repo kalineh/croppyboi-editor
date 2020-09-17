@@ -1,0 +1,586 @@
+fileFormatVersion: 2
+guid: 308d408293f1ec54595c980bfe50a091
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1234109998886278293
+    second: TouchIcons_0
+  - first:
+      213: -6262705930736202197
+    second: TouchIcons_1
+  - first:
+      213: -7910508766127325177
+    second: TouchIcons_2
+  - first:
+      213: 5072867846150097825
+    second: TouchIcons_3
+  - first:
+      213: 7582308650290919467
+    second: TouchIcons_4
+  - first:
+      213: -8592758568182498754
+    second: TouchIcons_5
+  - first:
+      213: 1463789734014216348
+    second: TouchIcons_6
+  - first:
+      213: 1785827515876077859
+    second: TouchIcons_7
+  - first:
+      213: -1377953954525696200
+    second: TouchIcons_8
+  - first:
+      213: 7861261448411815319
+    second: TouchIcons_9
+  - first:
+      213: -8568943268843961527
+    second: TouchIcons_10
+  - first:
+      213: -5296884365348626567
+    second: TouchIcons_11
+  - first:
+      213: 3800641897004874113
+    second: TouchIcons_12
+  - first:
+      213: -1763950187686268956
+    second: TouchIcons_13
+  - first:
+      213: -3220856516968484551
+    second: TouchIcons_14
+  - first:
+      213: -8584490520605898851
+    second: TouchIcons_15
+  - first:
+      213: 8256256702924391831
+    second: TouchIcons_0
+  - first:
+      213: 5650236574179174352
+    second: TouchIcons_1
+  - first:
+      213: -1661789766771776969
+    second: TouchIcons_2
+  - first:
+      213: 2105927622052647303
+    second: TouchIcons_3
+  - first:
+      213: -535167023818149790
+    second: TouchIcons_4
+  - first:
+      213: 2656203011903083959
+    second: TouchIcons_5
+  - first:
+      213: -1642920211139192636
+    second: TouchIcons_6
+  - first:
+      213: -5244092415183152645
+    second: TouchIcons_7
+  - first:
+      213: -4030868578176147672
+    second: TouchIcons_8
+  - first:
+      213: 8377789336705839834
+    second: TouchIcons_9
+  - first:
+      213: 4975887442120950909
+    second: TouchIcons_10
+  - first:
+      213: -746655641647716143
+    second: TouchIcons_11
+  - first:
+      213: -3068408734131805481
+    second: TouchIcons_12
+  - first:
+      213: 1616596209208176772
+    second: TouchIcons_13
+  - first:
+      213: 3600046359982797718
+    second: TouchIcons_14
+  - first:
+      213: 719374097829286481
+    second: TouchIcons_15
+  - first:
+      213: -459567785786564162
+    second: TouchIcons_16
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TouchIcons_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 899
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7950f305abd149270800000000000000
+      internalID: 8256256702924391831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TouchIcons_1
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 899
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7aedc5a3ca96e40800000000000000
+      internalID: 5650236574179174352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TouchIcons_2
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 899
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732603cf20320f8e0800000000000000
+      internalID: -1661789766771776969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TouchIcons_3
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 899
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781912bb302c93d10800000000000000
+      internalID: 2105927622052647303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TouchIcons_4
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 899
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260f0d16d64b298f0800000000000000
+      internalID: -535167023818149790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TouchIcons_5
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 899
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b55ecfe09abcd420800000000000000
+      internalID: 2656203011903083959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TouchIcons_6
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 899
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c81db4c5cc2339e0800000000000000
+      internalID: -1642920211139192636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TouchIcons_7
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 899
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf910b79bbd3937b0800000000000000
+      internalID: -5244092415183152645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TouchIcons_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 771
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82fd685726a7f08c0800000000000000
+      internalID: -4030868578176147672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TouchIcons_9
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 771
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad23869a303e34470800000000000000
+      internalID: 8377789336705839834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TouchIcons_10
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 771
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7442f5e347ed0540800000000000000
+      internalID: 4975887442120950909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TouchIcons_11
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 771
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8eb0e56a853a5f0800000000000000
+      internalID: -746655641647716143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TouchIcons_12
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 771
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d22e507382da65d0800000000000000
+      internalID: -3068408734131805481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TouchIcons_13
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 771
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480b81befad4f6610800000000000000
+      internalID: 1616596209208176772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TouchIcons_14
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 642
+        width: 106
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69376bd271fe5f130800000000000000
+      internalID: 3600046359982797718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TouchIcons_15
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 645
+        width: 118
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1525bb93eeabbf900800000000000000
+      internalID: 719374097829286481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TouchIcons_16
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 645
+        width: 118
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1aaf1a8894f99f0800000000000000
+      internalID: -459567785786564162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

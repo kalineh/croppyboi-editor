@@ -1,0 +1,535 @@
+fileFormatVersion: 2
+guid: c1314af44c96aa843b32a8509428a31b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7614176681532881009
+    second: Fences_Lamp
+  - first:
+      213: 1159864494577512369
+    second: Fences_HLockFlag_Open
+  - first:
+      213: 3953150516908535398
+    second: Fences_GateV_Close
+  - first:
+      213: 4288597548307622778
+    second: Fences_3
+  - first:
+      213: -3856745889839956931
+    second: Fences_4
+  - first:
+      213: -6471740296077092191
+    second: Fences_5
+  - first:
+      213: 6587885812606998715
+    second: Fences_6
+  - first:
+      213: 1434306972497490741
+    second: Fences_7
+  - first:
+      213: -8080210220268439807
+    second: Fences_GateH_OpenN
+  - first:
+      213: 3023241637940756542
+    second: Fences_GateHR_Open
+  - first:
+      213: 8669513512616791590
+    second: Fences_GateH_Close
+  - first:
+      213: -6282717253992204027
+    second: Fences_GateHR_Close
+  - first:
+      213: 3966669568171355213
+    second: Fences_GateH_Lock
+  - first:
+      213: 3468636503838854036
+    second: Fences_HLockFlag_Close
+  - first:
+      213: 8221167332465252890
+    second: Fences_GateH_LockOpen
+  - first:
+      213: 81592656127178477
+    second: Fences_GateH_OpenS
+  - first:
+      213: 3116056378815881881
+    second: Fences_GateV_OpenW
+  - first:
+      213: 2431769654782284060
+    second: Fences_GateV_OpenE
+  - first:
+      213: -1327210886342511943
+    second: Fences_LockGateV_Closed
+  - first:
+      213: 2285701305808987432
+    second: Fences_LockGateV_Open
+  - first:
+      213: 8959203778972523223
+    second: Fences_PadLockV_Open
+  - first:
+      213: -7614176681532881009
+    second: Fences_PadlockV_Locked
+  - first:
+      213: -5694429678448825830
+    second: Fences_GateJoin
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 85
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 85
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 29
+    textureCompression: 1
+    compressionQuality: 60
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 85
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fences_Lamp
+      rect:
+        serializedVersion: 2
+        x: 2305
+        y: 980
+        width: 252
+        height: 1055
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6114b35d9c78f04c9eb3b4a5966f1cf
+      internalID: -7614176681532881009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences_GateH_OpenN
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1599
+        width: 512
+        height: 256
+      alignment: 9
+      pivot: {x: 0.49378568, y: 0.043499947}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff83dcc341e08bc4f9433004acc1d8ee
+      internalID: -8080210220268439807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences_GateH_Close
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1312
+        width: 512
+        height: 256
+      alignment: 9
+      pivot: {x: 0.49245578, y: 0.039227962}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da885808b381c44292618f79d6ded13
+      internalID: 8669513512616791590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences_GateH_Lock
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 952
+        width: 94
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78186e440a6f8e94eaff8c08c8b0e458
+      internalID: 3966669568171355213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences_HLockFlag_Close
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 950
+        width: 298
+        height: 120
+      alignment: 9
+      pivot: {x: 0.1924588, y: 0.4694514}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499ebf1778943d74cb57838066011b8e
+      internalID: 3468636503838854036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences_HLockFlag_Open
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 998
+        width: 134
+        height: 285
+      alignment: 9
+      pivot: {x: 0.44528517, y: 0.8044194}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: affeab6c9173fc84896bbb4d4fc3bed1
+      internalID: 1159864494577512369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences_GateH_LockOpen
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 771
+        width: 97
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb48becb3b59ffb4a9a13cada8ced59c
+      internalID: 8221167332465252890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences_GateH_OpenS
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 1908
+        width: 512
+        height: 282
+      alignment: 9
+      pivot: {x: 0.50310713, y: 0.16715798}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff92b27997e80b4294ca47a6661f53c
+      internalID: 81592656127178477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences_GateV_OpenW
+      rect:
+        serializedVersion: 2
+        x: 2724
+        y: 920
+        width: 245
+        height: 663
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908581bb4872a5a48b3a632f6284fb9c
+      internalID: 3116056378815881881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences_GateV_OpenE
+      rect:
+        serializedVersion: 2
+        x: 3130
+        y: 922
+        width: 279
+        height: 663
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc2ee4d7b85e36498f0b40b7546ad49
+      internalID: 2431769654782284060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences_GateV_Close
+      rect:
+        serializedVersion: 2
+        x: 3439
+        y: 921
+        width: 215
+        height: 666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d039b5cb1b04a854f9d024c70a78868f
+      internalID: 3953150516908535398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences_LockGateV_Closed
+      rect:
+        serializedVersion: 2
+        x: 2589
+        y: 541
+        width: 102
+        height: 295
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b71dc0d7a44e1240a2543b15ff0bb97
+      internalID: -1327210886342511943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences_LockGateV_Open
+      rect:
+        serializedVersion: 2
+        x: 2423
+        y: 542
+        width: 125
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21985439bc7cbb42b2349b9e66ad93c
+      internalID: 2285701305808987432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences_PadLockV_Open
+      rect:
+        serializedVersion: 2
+        x: 2456
+        y: 427
+        width: 107
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d7858760ba4314e95c14d53387c201
+      internalID: 8959203778972523223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences_PadlockV_Locked
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 410
+        width: 102
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3285300bbf8eb6b428c3ce26a5ef829a
+      internalID: -7614176681532881009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences_GateJoin
+      rect:
+        serializedVersion: 2
+        x: 3503
+        y: 545
+        width: 97
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ecefaed8f0e80499f8195e8944e48a
+      internalID: -5694429678448825830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f005bc3546cc55d46b0865ec7a9f40c5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

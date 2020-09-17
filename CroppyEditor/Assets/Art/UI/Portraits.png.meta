@@ -1,0 +1,781 @@
+fileFormatVersion: 2
+guid: c1e7577034ee6cb40a5689b64eb67004
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 699703873648253923
+    second: Portraits_Neutral
+  - first:
+      213: 2434629766918126224
+    second: Portraits_Concern
+  - first:
+      213: 8558633213039616950
+    second: Portraits_Happy
+  - first:
+      213: -8799818171378165920
+    second: Portraits_Strawberry_0
+  - first:
+      213: -4985955241562752301
+    second: Portraits_Strawberry_1
+  - first:
+      213: 2657538790404826188
+    second: Portraits_Strawberry_2
+  - first:
+      213: -7737748710114358818
+    second: Portraits_Bags_0
+  - first:
+      213: 8232878538186372548
+    second: Portraits_Bags_1
+  - first:
+      213: 6504610415572811104
+    second: Portraits_Bags_2
+  - first:
+      213: -4148219816195209633
+    second: Portraits_Seed_0
+  - first:
+      213: -7455959467572184964
+    second: Portraits_Seed_1
+  - first:
+      213: -3486095673032812974
+    second: Portraits_Seed_2
+  - first:
+      213: -2573305742576499249
+    second: Portraits_Sell_0
+  - first:
+      213: -4960836580487084561
+    second: Portraits_Sell_1
+  - first:
+      213: 6836534596803025894
+    second: Portraits_Sell_2
+  - first:
+      213: 1190991625434052699
+    second: Portraits_ClaimBoard_0
+  - first:
+      213: 6790501904204468456
+    second: Portraits_Mangosteen_0
+  - first:
+      213: 8400773128110565004
+    second: Portraits_Mangosteen_1
+  - first:
+      213: -115103811588444381
+    second: Portraits_Mangosteen_2
+  - first:
+      213: 5875449961543500058
+    second: Portraits_Gym_0
+  - first:
+      213: 6326869055623557553
+    second: Portraits_Gym_1
+  - first:
+      213: -5645979497368462530
+    second: Portraits_Gym_2
+  - first:
+      213: 1077455163466325273
+    second: Portraits_TradeSeed_0
+  - first:
+      213: -5058949443877469233
+    second: Portraits_TradeSeed_1
+  - first:
+      213: 8329238699563171935
+    second: Portraits_TradeSeed_2
+  - first:
+      213: 4247017205834182307
+    second: Portraits_Gym_0
+  - first:
+      213: -7582237628688411049
+    second: Portraits_Gym_1
+  - first:
+      213: 4492174466751829236
+    second: Portraits_Gym_2
+  - first:
+      213: -1882284019939170255
+    second: Portraits_Wife
+  - first:
+      213: 699703873648253923
+    second: Portraits_Fountain_0
+  - first:
+      213: 2434629766918126224
+    second: Portraits_Fountain_1
+  - first:
+      213: 8558633213039616950
+    second: Portraits_Fountain_2
+  - first:
+      213: 1550941602952813435
+    second: Portraits_ClaimBoard_2
+  - first:
+      213: -2772536606210348388
+    second: Portraits_ClaimBoard_1
+  - first:
+      213: -8018353281523336295
+    second: Portraits_ClaimBoard_0
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 85
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 85
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 85
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 29
+    textureCompression: 1
+    compressionQuality: 60
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Portraits_Strawberry_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1511
+        width: 514
+        height: 537
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0671afe1ff3c0e580800000000000000
+      internalID: -8799818171378165920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portraits_Strawberry_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1511
+        width: 512
+        height: 535
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dab7a0ef145ecab0800000000000000
+      internalID: -4985955241562752301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portraits_Strawberry_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1515
+        width: 512
+        height: 533
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44a6ea137971e420800000000000000
+      internalID: 2657538790404826188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portraits_Bags_0
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1517
+        width: 512
+        height: 531
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed985646b8efd9490800000000000000
+      internalID: -7737748710114358818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portraits_Bags_1
+      rect:
+        serializedVersion: 2
+        x: 2049
+        y: 1518
+        width: 518
+        height: 530
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c5398b296f014270800000000000000
+      internalID: 8232878538186372548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portraits_Bags_2
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1519
+        width: 512
+        height: 529
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06df586c5b4054a50800000000000000
+      internalID: 6504610415572811104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portraits_Seed_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1040
+        width: 512
+        height: 473
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56c27d2e009e66c0800000000000000
+      internalID: -4148219816195209633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portraits_Seed_1
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1036
+        width: 512
+        height: 470
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7836ab1e5c178890800000000000000
+      internalID: -7455959467572184964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portraits_Seed_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1036
+        width: 512
+        height: 473
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2565adb9476ee9fc0800000000000000
+      internalID: -3486095673032812974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portraits_Sell_0
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 983
+        width: 512
+        height: 511
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc54143af08c94cd0800000000000000
+      internalID: -2573305742576499249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portraits_Sell_1
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 983
+        width: 457
+        height: 517
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5cd47e961972bb0800000000000000
+      internalID: -4960836580487084561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portraits_Sell_2
+      rect:
+        serializedVersion: 2
+        x: 2516
+        y: 984
+        width: 483
+        height: 514
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ebdc198eff30ee50800000000000000
+      internalID: 6836534596803025894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portraits_Mangosteen_0
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 500
+        width: 512
+        height: 533
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e098b61185bc3e50800000000000000
+      internalID: 6790501904204468456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portraits_Mangosteen_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 497
+        width: 512
+        height: 527
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c866dab96aa859470800000000000000
+      internalID: 8400773128110565004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portraits_Mangosteen_2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 494
+        width: 512
+        height: 537
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f2af571b1176ef0800000000000000
+      internalID: -115103811588444381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portraits_TradeSeed_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 486
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d12d733c3e3fe00800000000000000
+      internalID: 1077455163466325273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portraits_TradeSeed_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 512
+        height: 487
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc30605c8400bc9b0800000000000000
+      internalID: -5058949443877469233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portraits_TradeSeed_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 512
+        height: 485
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5046e09776679370800000000000000
+      internalID: 8329238699563171935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portraits_Gym_0
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 0
+        width: 508
+        height: 529
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aee7b4a5af60fa30800000000000000
+      internalID: 4247017205834182307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portraits_Gym_1
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 0
+        width: 556
+        height: 534
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7565d639c0b76c690800000000000000
+      internalID: -7582237628688411049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portraits_Gym_2
+      rect:
+        serializedVersion: 2
+        x: 2523
+        y: 16
+        width: 487
+        height: 529
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f492df70e8675e30800000000000000
+      internalID: 4492174466751829236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portraits_Wife
+      rect:
+        serializedVersion: 2
+        x: 3046
+        y: 0
+        width: 538
+        height: 619
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138a12918a8c0e5e0800000000000000
+      internalID: -1882284019939170255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portraits_Fountain_0
+      rect:
+        serializedVersion: 2
+        x: 3021
+        y: 823
+        width: 765
+        height: 779
+      alignment: 9
+      pivot: {x: 0.6224472, y: 0.23864315}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ebd4c447f8d5b900800000000000000
+      internalID: 699703873648253923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portraits_ClaimBoard_1
+      rect:
+        serializedVersion: 2
+        x: 2090
+        y: 545
+        width: 363
+        height: 424
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9aa01c65a8f589d0800000000000000
+      internalID: -2772536606210348388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portraits_ClaimBoard_2
+      rect:
+        serializedVersion: 2
+        x: 2451
+        y: 544
+        width: 384
+        height: 418
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b906fab2d068510800000000000000
+      internalID: 1550941602952813435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portraits_ClaimBoard_0
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 548
+        width: 370
+        height: 415
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99bb63b6c2619b090800000000000000
+      internalID: -8018353281523336295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 0b9244e42fb4eab4db381c6153a8b20c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
