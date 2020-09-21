@@ -42,26 +42,26 @@ TagManager:
     uniqueID: 0
     locked: 0
   - name: Tilemaps
-    uniqueID: 2765323313
+    uniqueID: 1844519091
     locked: 0
   - name: Ground
-    uniqueID: 3518559969
+    uniqueID: 1135385557
     locked: 0
   - name: Characters
-    uniqueID: 2010979997
+    uniqueID: 205257437
     locked: 0
   - name: Roof
-    uniqueID: 1695227059
+    uniqueID: 3359000811
     locked: 0
   - name: Wall
-    uniqueID: 2216510841
+    uniqueID: 1714777837
     locked: 0
   - name: IndoorOcclusion
-    uniqueID: 1112731461
+    uniqueID: 3359686643
     locked: 0
   - name: Effects
-    uniqueID: 4007866693
+    uniqueID: 2994511093
     locked: 0
   - name: UI
-    uniqueID: 158609491
+    uniqueID: 2920271369
     locked: 0
