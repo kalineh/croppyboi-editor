@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8283514990093848334}
   - component: {fileID: 2220411005210496671}
-  - component: {fileID: 1867870005528338256}
+  - component: {fileID: 2676594330466606840}
   m_Layer: 9
   m_Name: Base
   m_TagString: Untagged
@@ -83,7 +83,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
---- !u!114 &1867870005528338256
+--- !u!114 &2676594330466606840
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -243,7 +243,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1813376827777941977}
   - component: {fileID: 7516012148837243964}
-  - component: {fileID: 631679767001061529}
+  - component: {fileID: 5750650017965237587}
   m_Layer: 9
   m_Name: Glass
   m_TagString: Untagged
@@ -304,7 +304,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 205257437
   m_SortingLayer: 3
-  m_SortingOrder: 16
+  m_SortingOrder: 13
   m_Sprite: {fileID: 4456546489502066182, guid: 84821c362ce2a9d4a8edf5c2268186f3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -316,7 +316,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
---- !u!114 &631679767001061529
+--- !u!114 &5750650017965237587
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -325,10 +325,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2460860731549382385}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e860cb91da80fe4c9970b5e5dcf7a0a, type: 3}
+  m_Script: {fileID: 11500000, guid: 0656a89db63950041b2cdbd44e18cd61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: 0.4
 --- !u!1 &3614858192170194112
 GameObject:
   m_ObjectHideFlags: 0
@@ -396,7 +395,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3279529514521001830}
   - component: {fileID: 1880828746971706767}
-  - component: {fileID: 406135008208427864}
+  - component: {fileID: 13647059018537869}
   m_Layer: 9
   m_Name: Roof
   m_TagString: Untagged
@@ -469,7 +468,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 2
   m_SpriteSortPoint: 1
---- !u!114 &406135008208427864
+--- !u!114 &13647059018537869
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -548,7 +547,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2403228047058549868}
   - component: {fileID: 6087713197582503965}
-  - component: {fileID: 8761123529417159938}
+  - component: {fileID: 3562044082924282338}
   m_Layer: 9
   m_Name: Front
   m_TagString: Untagged
@@ -621,7 +620,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
---- !u!114 &8761123529417159938
+--- !u!114 &3562044082924282338
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -676,7 +675,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7681158489841678205}
-  - component: {fileID: 3116101031498084446}
+  - component: {fileID: 589777309833270084}
   m_Layer: 0
   m_Name: Prebuilt_FarmHouseA
   m_TagString: Untagged
@@ -702,7 +701,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3116101031498084446
+--- !u!114 &589777309833270084
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -760,7 +759,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4473996789965805865}
-  - component: {fileID: 2980003887071301655}
+  - component: {fileID: 2235362253034316158}
   - component: {fileID: 9030329702864116887}
   - component: {fileID: 8570146395504219470}
   m_Layer: 14
@@ -784,7 +783,7 @@ Transform:
   m_Father: {fileID: 6234660860803431631}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2980003887071301655
+--- !u!114 &2235362253034316158
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

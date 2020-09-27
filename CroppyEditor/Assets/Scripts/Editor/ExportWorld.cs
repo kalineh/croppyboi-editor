@@ -47,6 +47,12 @@ public class ExportWorld
                 Debug.LogErrorFormat(farmHouse.gameObject, "Validate: farm house missing farm zone");
         }
 
+        foreach (var coupZone in GameObject.FindObjectsOfType<ChickenCoupProxy>())
+        {
+            if (coupZone.gameObject.GetComponentInChildren<ChickenCoupZoneProxy>() == null)
+                Debug.LogErrorFormat(coupZone.gameObject, "Validate: chicken coup missing coup zone child");
+        }
+
         var time1 = EditorApplication.timeSinceStartup;
         Debug.LogFormat("Validate: complete in {0}ms", (int)((time1 - time0) * 1000.0f));
     }

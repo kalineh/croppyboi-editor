@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 7255782365205329715}
   - component: {fileID: 8734859885057987349}
   - component: {fileID: 7745696564461710046}
-  - component: {fileID: 4062650478087228590}
+  - component: {fileID: 8264419080528916091}
   m_Layer: 9
   m_Name: Text
   m_TagString: Untagged
@@ -310,7 +310,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 8734859885057987349}
   m_maskType: 0
---- !u!114 &4062650478087228590
+--- !u!114 &8264419080528916091
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -436,7 +436,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -480,8 +480,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Croppy's Farm
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 0}
-  m_sharedMaterial: {fileID: 0}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -508,7 +508,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 2.8
+  m_fontSize: 2.5
   m_fontSizeBase: 2
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -551,15 +551,15 @@ MonoBehaviour:
   m_pageToDisplay: 1
   m_margin: {x: 8.92524, y: 2.058163, z: 9.429104, w: 2.6611245}
   m_textInfo:
-    textComponent: {fileID: 0}
-    characterCount: 0
+    textComponent: {fileID: 1267691094656874841}
+    characterCount: 13
     spriteCount: 0
-    spaceCount: 0
-    wordCount: 0
+    spaceCount: 1
+    wordCount: 2
     linkCount: 0
-    lineCount: 0
-    pageCount: 0
-    materialCount: 0
+    lineCount: 1
+    pageCount: 1
+    materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -576,7 +576,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5282512741672240689}
   - component: {fileID: 2120431744821331596}
-  - component: {fileID: 380931351969007712}
+  - component: {fileID: 507936691691095373}
   m_Layer: 11
   m_Name: Sprite
   m_TagString: Untagged
@@ -649,7 +649,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &380931351969007712
+--- !u!114 &507936691691095373
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -671,7 +671,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6730282263537498132}
   - component: {fileID: 3753438873897797313}
-  - component: {fileID: 1355289765795016831}
+  - component: {fileID: 7622604853398390109}
   m_Layer: 11
   m_Name: Sprite
   m_TagString: Untagged
@@ -744,7 +744,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1355289765795016831
+--- !u!114 &7622604853398390109
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -766,7 +766,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1103826613779549492}
   - component: {fileID: 7723477383899517974}
-  - component: {fileID: 8434738096937775728}
+  - component: {fileID: 6489993544028005739}
   m_Layer: 11
   m_Name: Prebuilt_ClaimBoard
   m_TagString: Untagged
@@ -816,7 +816,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.8}
   m_EdgeRadius: 0
---- !u!114 &8434738096937775728
+--- !u!114 &6489993544028005739
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

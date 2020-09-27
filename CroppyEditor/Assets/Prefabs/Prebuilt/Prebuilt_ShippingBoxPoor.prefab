@@ -67,7 +67,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5310352666156774376}
   - component: {fileID: 3300276695364889290}
-  - component: {fileID: 7985672227258506442}
+  - component: {fileID: 9127371772765755847}
   m_Layer: 11
   m_Name: Prebuilt_ShippingBoxPoor
   m_TagString: Untagged
@@ -117,7 +117,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.2, y: 0.6}
   m_EdgeRadius: 0
---- !u!114 &7985672227258506442
+--- !u!114 &9127371772765755847
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -139,7 +139,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2678477872215969807}
   - component: {fileID: 7878549698059778997}
-  - component: {fileID: 1844553922923447491}
+  - component: {fileID: 6883831577548948831}
   m_Layer: 11
   m_Name: Sprite
   m_TagString: Untagged
@@ -212,7 +212,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1844553922923447491
+--- !u!114 &6883831577548948831
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

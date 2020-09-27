@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5566772434049737980}
   - component: {fileID: 2972375473164877278}
-  - component: {fileID: 6760778252582346471}
+  - component: {fileID: 7357516628157037633}
   m_Layer: 11
   m_Name: Prebuilt_ShippingBoxAverage
   m_TagString: Untagged
@@ -60,7 +60,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5, y: 1}
   m_EdgeRadius: 0
---- !u!114 &6760778252582346471
+--- !u!114 &7357516628157037633
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -139,7 +139,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2438931172332881691}
   - component: {fileID: 7612548610910530721}
-  - component: {fileID: 1327451450637767112}
+  - component: {fileID: 2794019538572990077}
   m_Layer: 11
   m_Name: Sprite
   m_TagString: Untagged
@@ -212,7 +212,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1327451450637767112
+--- !u!114 &2794019538572990077
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
