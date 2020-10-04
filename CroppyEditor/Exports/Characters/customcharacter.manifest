@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 816592716
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2e363f4cae7b1843701c49e3a3d2acb6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bed28f445f36a0d1ea4930186fa92103
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 11d45e4ac2ef31a44aa44cfed866cc3e, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Bundles/Characters/CustomCharacter.prefab
+Dependencies: []

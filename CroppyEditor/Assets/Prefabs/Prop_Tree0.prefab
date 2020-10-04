@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6796278518196291503}
   - component: {fileID: 9167034105646376730}
   - component: {fileID: 433664547529684415}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69,8 +69,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 2010979997
-  m_SortingLayer: 0
+  m_SortingLayerID: 1714777837
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: -4024238454754246363, guid: 69e82fa9683825e48bb6b7f7d34e2453, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -105,8 +105,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8503631533173794348}
   - component: {fileID: 1590121542869810208}
-  m_Layer: 9
-  m_Name: Tree0
+  m_Layer: 10
+  m_Name: Prop_Tree0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

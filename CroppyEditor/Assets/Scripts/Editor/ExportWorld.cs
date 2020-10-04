@@ -61,14 +61,13 @@ public class ExportWorld
     public static void MenuExportWorld()
     {
         var scene = UnityEditor.SceneManagement.EditorSceneManager.GetActiveScene();
-        var path = Path.GetFullPath(Path.Combine(Application.dataPath, "../bundles"));
+        var path = Path.GetFullPath(Path.Combine(Application.dataPath, "../Exports/Worlds"));
 
         Debug.LogFormat("Export: exporting to {0}...", path);
 
         if (Directory.Exists(path) == false)
             Directory.CreateDirectory(path);
 
-        // go through each proxy, store json representation
         BuildPipeline.BuildAssetBundles(path, BuildAssetBundleOptions.AssetBundleStripUnityVersion, BuildTarget.StandaloneWindows);
     }
 }
