@@ -5,9 +5,14 @@
 * Download the repository.
 * Open in Unity (version 2020.1.0f1 recommended).
 * Modify World.unity scene, or copy to new scene and edit.
-* Select 'Export / Validate Scene' to check for some errors.
-* Select 'Export / Export World' to export the world Asset Bundle.
-* Copy 'worldbundle' and 'worldbundle.manifest' from `bundles/` folder into `Croppy Boy\Croppy_Data\StreamingAssets` or `Croppy Boy\Royal\Croppy_Data\StreamingAssets`.
+* Select 'Export / Export Window' to export the bundles.
+* Select 'Export / Deploy Window' to deploy to the game folder.
+* Choose the Game Folder (should be called StreamingAssets at location `Croppy\Croppy_Data\StreamingAssets`)
+* Click Refresh and Deploy
+* Run the game, and select Play Custom Map.
+
+Video Demo:
+https://www.youtube.com/watch?v=zfv-QPQMbM0&feature=youtu.be
 
 ### Playing Custom Maps
 
