@@ -8,7 +8,7 @@ using UnityEditor.Build.Content;
 public class ExportWorld
     : MonoBehaviour
 {
-    [MenuItem("Export/Fix Sprite Missing #%K")]
+    //[MenuItem("Export/Fix Sprite Missing #%K")]
     public static void MenuFixSpriteClean()
     {
         var sel = UnityEditor.Selection.activeGameObject;
@@ -57,7 +57,7 @@ public class ExportWorld
         Debug.LogFormat("Validate: complete in {0}ms", (int)((time1 - time0) * 1000.0f));
     }
 
-    [MenuItem("Export/Export World")]
+    //[MenuItem("Export/Export World")]
     public static void MenuExportWorld()
     {
         var scene = UnityEditor.SceneManagement.EditorSceneManager.GetActiveScene();

@@ -13,11 +13,14 @@ public class ExportCharacter
     {
         var time0 = EditorApplication.timeSinceStartup;
         Debug.LogFormat("Validate: validating character...");
+
+        // TODO: check sprites
+
         var time1 = EditorApplication.timeSinceStartup;
         Debug.LogFormat("Validate: complete in {0}ms", (int)((time1 - time0) * 1000.0f));
     }
 
-    [MenuItem("Export/Export Character")]
+    //[MenuItem("Export/Export Character")]
     public static void MenuExportCharacter()
     {
         var selectedObj = UnityEditor.Selection.activeGameObject;
