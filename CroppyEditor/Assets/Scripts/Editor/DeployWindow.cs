@@ -14,6 +14,13 @@ public class DeployWindow
         EditorWindow.GetWindow(typeof(DeployWindow));
     }
 
+    [MenuItem("Custom/Forget EditorPrefs")]
+    public static void MenuForgetEditorPrefs()
+    {
+        EditorPrefs.DeleteKey("DeployPathSrc");
+        EditorPrefs.DeleteKey("DeployPathDst");
+    }
+
     private string pathSrc;
     private string pathDst;
 
