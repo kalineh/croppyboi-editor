@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3848254305
+CRC: 2723497139
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 0cfa3df9e03f7591c4417e2595786794
+    Hash: f7636c3afdd7d25fe66f06438e5291b8
   TypeTreeHash:
     serializedVersion: 2
-    Hash: f8db1e4eacf36803374fdad56ce48895
+    Hash: 8fc261f34b3bf03459e6793bce28d86f
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -30,7 +30,7 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 45deed85765ec2f44ae491a3ad5c121d, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: c08d43e6eab3fdc48bad92cc90666735, type: 3}
+  Script: {fileID: 11500000, guid: b08489d56ac6a3c4990ca58787ccd436, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: df8f84089c9d0994ab71e0a63b38ae85, type: 3}
 - Class: 114
@@ -66,5 +66,5 @@ ClassTypes:
 - Class: 1839735485
   Script: {instanceID: 0}
 Assets:
-- Assets/Bundles/Worlds/CustomWorld1.unity
+- Assets/Bundles/Worlds/CustomWorld_Demo.unity
 Dependencies: []

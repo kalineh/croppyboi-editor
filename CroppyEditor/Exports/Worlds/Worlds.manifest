@@ -1,7 +1,7 @@
 ManifestFileVersion: 0
-CRC: 3420856212
+CRC: 1484222064
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: customworld2
+      Name: customworld_demo
       Dependencies: {}

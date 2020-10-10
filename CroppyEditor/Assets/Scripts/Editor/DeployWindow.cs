@@ -98,6 +98,8 @@ public class DeployWindow
 
     private void Deploy()
     {
+        var srcCharactersFolder = Path.Combine(pathSrc, "Characters");
+        var srcWorldsFolder = Path.Combine(pathSrc, "Worlds");
         var dstCharactersFolder = Path.Combine(pathDst, "Characters");
         var dstWorldsFolder = Path.Combine(pathDst, "Worlds");
 
@@ -109,7 +111,7 @@ public class DeployWindow
         foreach (var manifest in srcCharacters)
         {
             File.Copy(manifest, Path.Combine(dstCharactersFolder, Path.GetFileName(manifest)), true);
-            File.Copy(manifest, Path.Combine(dstCharactersFolder, Path.GetFileNameWithoutExtension(manifest)), true);
+            File.Copy(Path.Combine(srcCharactersFolder, Path.GetFileNameWithoutExtension(manifest)), Path.Combine(dstCharactersFolder, Path.GetFileNameWithoutExtension(manifest)), true);
 
             Debug.LogFormat("Deployed Character '{0}'...", manifest);
         }
@@ -117,7 +119,7 @@ public class DeployWindow
         foreach (var manifest in srcWorlds)
         {
             File.Copy(manifest, Path.Combine(dstWorldsFolder, Path.GetFileName(manifest)), true);
-            File.Copy(manifest, Path.Combine(dstWorldsFolder, Path.GetFileNameWithoutExtension(manifest)), true);
+            File.Copy(Path.Combine(srcWorldsFolder, Path.GetFileNameWithoutExtension(manifest)), Path.Combine(dstWorldsFolder, Path.GetFileNameWithoutExtension(manifest)), true);
 
             Debug.LogFormat("Deployed World '{0}'...", manifest);
         }
@@ -133,18 +135,23 @@ public class DeployWindow
 
         if (string.IsNullOrEmpty(pathDst))
         {
-            EditorGUILayout.HelpBox("Game Folder not configured", MessageType.Warning);
+            EditorGUILayout.HelpBox("Export Folder not configured", MessageType.Warning);
             valid = false;
         }
         else if (Directory.Exists(pathDst) == false)
         {
-            EditorGUILayout.HelpBox("Game Folder invalid path", MessageType.Warning);
+            EditorGUILayout.HelpBox("Export Folder invalid path", MessageType.Warning);
             valid = false;
         }
-
-        if (GUILayout.Button("Select Game Folder"))
+        else if (pathDst.EndsWith("StreamingAssets") == false)
         {
-            var result = EditorUtility.OpenFolderPanel("Select Game Folder", "", "");
+            EditorGUILayout.HelpBox("Export Folder does not look like StreamingAssets folder", MessageType.Warning);
+            // still valid
+        }
+
+        if (GUILayout.Button("Select Export Folder"))
+        {
+            var result = EditorUtility.OpenFolderPanel("Select Export Folder", "", "");
             if (result != null)
             {
                 pathDst = result;
@@ -184,8 +191,5 @@ public class DeployWindow
             GUILayout.Label(w);
         foreach (var c in dstCharacters)
             GUILayout.Label(c);
-
-        var worldsSrc = Path.GetFullPath(Path.Combine(Application.dataPath, "../Exports/Worlds"));
-        var worldsDst = Path.GetFullPath(Path.Combine(Application.dataPath, "../Exports/Worlds"));
     }
 }
