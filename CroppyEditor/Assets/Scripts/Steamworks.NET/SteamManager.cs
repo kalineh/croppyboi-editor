@@ -28,7 +28,14 @@ public class SteamManager : MonoBehaviour {
 	protected static SteamManager Instance {
 		get {
 			if (s_instance == null) {
-				return new GameObject("SteamManager").AddComponent<SteamManager>();
+                var existing = GameObject.FindObjectOfType<SteamManager>();
+                if (existing != null)
+                {
+                    s_instance = existing;
+                    return s_instance;
+                }
+				s_instance = new GameObject("SteamManager").AddComponent<SteamManager>();
+                return s_instance;
 			}
 			else {
 				return s_instance;
@@ -156,6 +163,7 @@ public class SteamManager : MonoBehaviour {
 		// Run Steam client callbacks
 		SteamAPI.RunCallbacks();
 	}
+
 #else
 	public static bool Initialized {
 		get {

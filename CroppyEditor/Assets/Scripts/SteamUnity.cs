@@ -128,18 +128,18 @@ public class SteamUnity
             return;
         }
 
-        Debug.LogFormat("SteamUnity.SubmitItem: updating item...");
+        Debug.LogFormat("SteamUnity.SubmitItem: updating item with content at {0}...", folder);
 
         var preview = System.IO.Path.Combine(folder, "preview.jpg");
         var tags = new List<string>() { tag, };
 
         var update = SteamUGC.StartItemUpdate(SteamAppId, working);
 
-        SteamUGC.SetItemTitle(update, title);
-        SteamUGC.SetItemDescription(update, description);
-        SteamUGC.SetItemMetadata(update, "metadata");
-        SteamUGC.SetItemVisibility(update, ERemoteStoragePublishedFileVisibility.k_ERemoteStoragePublishedFileVisibilityPublic);
-        SteamUGC.SetItemTags(update, tags);
+        //SteamUGC.SetItemTitle(update, title);
+        //SteamUGC.SetItemDescription(update, description);
+        //SteamUGC.SetItemMetadata(update, "metadata");
+        //SteamUGC.SetItemVisibility(update, ERemoteStoragePublishedFileVisibility.k_ERemoteStoragePublishedFileVisibilityPublic);
+        //SteamUGC.SetItemTags(update, tags);
         SteamUGC.SetItemContent(update, folder);
         SteamUGC.SetItemPreview(update, preview);
 

@@ -44,9 +44,15 @@ public class WorkshopWindow
 
         if (SteamUnity.Instance == null)
         {
-            EditorGUILayout.HelpBox("Missing SteamUnity object", MessageType.None);
-            if (GUILayout.Button("Create"))
-                SteamUnity.Instance = (new GameObject("SteamUnity")).AddComponent<SteamUnity>();
+            var existing = GameObject.FindObjectOfType<SteamUnity>();
+            if (existing == null)
+            {
+                EditorGUILayout.HelpBox("Missing SteamUnity object", MessageType.None);
+                if (GUILayout.Button("Create"))
+                    SteamUnity.Instance = (new GameObject("SteamUnity")).AddComponent<SteamUnity>();
+            }
+            else
+                SteamUnity.Instance = existing;
 
             return;
         }
@@ -55,6 +61,7 @@ public class WorkshopWindow
 
         var steamid = (int)((ulong)SteamUser.GetSteamID().m_SteamID);
         var steamname = SteamFriends.GetPersonaName();
+
 
         GUILayout.Label(string.Format("Initialized: {0}", SteamManager.Initialized.ToString()));
         GUILayout.Label(string.Format("Steam Running: {0}", SteamAPI.IsSteamRunning()));
