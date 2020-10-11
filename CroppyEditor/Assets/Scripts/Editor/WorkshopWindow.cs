@@ -62,32 +62,26 @@ public class WorkshopWindow
         GUILayout.Label(string.Format("Steam Running: {0}", SteamAPI.IsSteamRunning()));
         GUILayout.Label(string.Format("Steam ID: {0}", steamid));
         GUILayout.Label(string.Format("Steam User: {0}", steamname));
-        GUILayout.Label(string.Format("Steam User: {0}", steamname));
 
         if (GUILayout.Button("Break Busy"))
             SteamUnity.Instance.busy = false;
 
-        if (GUILayout.Button("Subscription info"))
-        {
-            var subscribed = SteamUGC.GetNumSubscribedItems();
-            var items = new PublishedFileId_t[subscribed];
-            var count = SteamUGC.GetSubscribedItems(items, subscribed);
-
-            Debug.LogFormat("SteamUnity: found {0} subscribed items...", count);
-        }
-
-        EditorGUILayout.HelpBox("Steam Utilities", MessageType.None);
-
-        if (GUILayout.Button("Create Workshop Item"))
-            SteamUnity.Instance.CreateItem();
+        EditorGUILayout.HelpBox("Steam Published Files", MessageType.None);
 
         if (GUILayout.Button("Scan Published Items"))
             SteamUnity.Instance.QueryPublishedItems();
 
+        GUILayout.BeginHorizontal();
+
+        if (GUILayout.Button("Create Workshop Item"))
+            SteamUnity.Instance.CreateItem();
+
         if (GUILayout.Button("Submit Item"))
             SteamUnity.Instance.SubmitItem(textTitle, textDescription, textTag, textManifest, texturePreview);
 
-        EditorGUILayout.HelpBox("Steam Items", MessageType.None);
+        GUILayout.EndHorizontal();
+
+        EditorGUILayout.HelpBox("Steam Published Items", MessageType.None);
 
         var published = SteamUnity.Instance.GetPublishedItems();
         var working = SteamUnity.Instance.GetWorking();
@@ -97,7 +91,8 @@ public class WorkshopWindow
             var item = published[i];
 
             GUILayout.BeginHorizontal();
-            GUILayout.Label(string.Format("{0} ({1})", item.m_rgchTitle, item.m_nPublishedFileId.m_PublishedFileId.ToString()));
+            GUILayout.Label(string.Format("{0} ({1})", item.m_rgchTitle, item.m_nPublishedFileId.m_PublishedFileId.ToString()), GUILayout.Width(200));
+
             if (GUILayout.Button("Select"))
             {
                 SteamUnity.Instance.SelectWorking(item.m_nPublishedFileId);
@@ -113,61 +108,69 @@ public class WorkshopWindow
             GUILayout.EndHorizontal();
         }
 
-        EditorGUILayout.HelpBox("Working Item", MessageType.None);
-
-        GUILayout.Label(string.Format("ID: {0}", working));
+        EditorGUILayout.HelpBox("Steam Submission", MessageType.None);
 
         if (working != PublishedFileId_t.Invalid)
         {
-            var details = SteamUnity.Instance.GetWorkingDetails();
+            var workingDetails = SteamUnity.Instance.GetWorkingDetails();
 
-            GUILayout.BeginHorizontal();
-            GUILayout.Label("Title");
-            textTitle = GUILayout.TextField(textTitle);
-            GUILayout.EndHorizontal();
-            
-            GUILayout.BeginHorizontal();
-            GUILayout.Label("Description");
-            textDescription = GUILayout.TextField(textDescription);
-            GUILayout.EndHorizontal();
-            
-            GUILayout.BeginHorizontal();
-            GUILayout.Label("Tag");
-            textTag = GUILayout.TextField(textTag);
-            if (textTag != "character" && textTag != "world")
-                textTag = "world";
-            GUILayout.EndHorizontal();
-            
-            GUILayout.BeginHorizontal();
-            GUILayout.Label("Folder");
-            textManifest = GUILayout.TextField(textManifest);
-            var menu = new GenericMenu();
-            if (GUILayout.Button("Select Bundle"))
+            if (workingDetails.m_nPublishedFileId != PublishedFileId_t.Invalid)
             {
-                var exportsFolder = Path.GetFullPath(Path.Combine(Application.dataPath, "../Exports"));
-                var subFolder = textTag == "world" ? "Worlds" : "Characters";
-                var contentFolder = Path.Combine(exportsFolder, subFolder);
+                GUILayout.Label(string.Format("{0} ({1})", workingDetails.m_rgchTitle, workingDetails.m_nPublishedFileId), GUILayout.Width(200));
 
-                if (Directory.Exists(contentFolder))
+                GUILayout.BeginHorizontal();
+                GUILayout.Label("Title", GUILayout.Width(200));
+                textTitle = GUILayout.TextField(textTitle);
+                GUILayout.EndHorizontal();
+
+                GUILayout.BeginHorizontal();
+                GUILayout.Label("Description", GUILayout.Width(200));
+                textDescription = GUILayout.TextField(textDescription);
+                GUILayout.EndHorizontal();
+
+                GUILayout.BeginHorizontal();
+                GUILayout.Label("Tag", GUILayout.Width(200));
+                textTag = GUILayout.TextField(textTag);
+                if (textTag != "character" && textTag != "world")
+                    textTag = "world";
+                GUILayout.EndHorizontal();
+
+                EditorGUILayout.Separator();
+
+                GUILayout.BeginHorizontal();
+                GUILayout.Label("Folder", GUILayout.Width(200));
+                textManifest = GUILayout.TextField(textManifest);
+                var menu = new GenericMenu();
+                if (GUILayout.Button("Select Bundle"))
                 {
-                    var contentFiles = new List<string>(Directory.GetFiles(contentFolder, "*.manifest"));
+                    var exportsFolder = Path.GetFullPath(Path.Combine(Application.dataPath, "../Exports"));
+                    var subFolder = textTag == "world" ? "Worlds" : "Characters";
+                    var contentFolder = Path.Combine(exportsFolder, subFolder);
 
-                    foreach (var content in contentFiles)
+                    if (Directory.Exists(contentFolder))
                     {
-                        if (content == "Characters.manifest" || content == "Worlds.manifest")
-                            continue;
+                        var contentFiles = new List<string>(Directory.GetFiles(contentFolder, "*.manifest"));
 
-                        var contentName = Path.GetFileNameWithoutExtension(content);
+                        foreach (var content in contentFiles)
+                        {
+                            if (content == "Characters.manifest" || content == "Worlds.manifest")
+                                continue;
 
-                        menu.AddItem(new GUIContent(contentName), textManifest == content, o => { textManifest = content; }, null);
+                            var contentName = Path.GetFileNameWithoutExtension(content);
+
+                            menu.AddItem(new GUIContent(contentName), textManifest == content, o => { textManifest = content; }, null);
+                        }
+
+                        menu.ShowAsContext();
                     }
-
-                    menu.ShowAsContext();
                 }
-            }
-            GUILayout.EndHorizontal();
+                GUILayout.EndHorizontal();
 
-            texturePreview = EditorGUILayout.ObjectField(texturePreview, typeof(Texture2D), true) as Texture2D;
+                GUILayout.BeginHorizontal();
+                GUILayout.Label("Preview Texture", GUILayout.Width(200));
+                texturePreview = EditorGUILayout.ObjectField(texturePreview, typeof(Texture2D), true) as Texture2D;
+                GUILayout.EndHorizontal();
+            }
         }
     }
 }
