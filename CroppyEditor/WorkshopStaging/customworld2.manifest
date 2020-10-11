@@ -1,0 +1,60 @@
+ManifestFileVersion: 0
+CRC: 3296197027
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 46d57ab2dc79e0757cdfdaff9caae09e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2a3fd4e3fd7d936e44272b34cc64d84c
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 104
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 45deed85765ec2f44ae491a3ad5c121d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: df8f84089c9d0994ab71e0a63b38ae85, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1358d0198ecced64f92b9a7149bdaf2b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 42ca80ea0a8fda24489b4a9669ea8908, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 739552fc05b675a4dbeb61c03a867d69, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0656a89db63950041b2cdbd44e18cd61, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 157
+  Script: {instanceID: 0}
+- Class: 196
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 19719996
+  Script: {instanceID: 0}
+- Class: 156049354
+  Script: {instanceID: 0}
+- Class: 483693784
+  Script: {instanceID: 0}
+- Class: 1839735485
+  Script: {instanceID: 0}
+Assets:
+- Assets/Bundles/Worlds/CustomWorld2.unity
+Dependencies: []

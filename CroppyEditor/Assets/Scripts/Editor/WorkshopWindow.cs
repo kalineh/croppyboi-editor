@@ -36,38 +36,36 @@ public class WorkshopWindow
     private string textTitle;
     private string textDescription;
     private string textTag;
-    private string textFolder;
+    private string textManifest;
+    private Texture2D texturePreview;
 
     public void OnGUI()
     {
         var valid = true;
 
-        if (SteamUnity.Instance == null)
-        {
-            var existing = GameObject.FindObjectOfType<SteamUnity>();
-            if (existing == null)
-            {
-                EditorGUILayout.HelpBox("Missing SteamUnity object", MessageType.None);
-                if (GUILayout.Button("Create"))
-                    SteamUnity.Instance = (new GameObject("SteamUnity")).AddComponent<SteamUnity>();
-            }
-            else
-                SteamUnity.Instance = existing;
+        EditorSteamManager.EnforceInstance();
+        EditorSteamManager.PrepareSteamworks();
 
+        if (SteamUnity.Instance == null)
+            SteamUnity.Instance = GameObject.FindObjectOfType<SteamUnity>();
+        if (SteamUnity.Instance == null)
+            SteamUnity.Instance = (new GameObject("SteamUnity")).AddComponent<SteamUnity>();
+        if (SteamUnity.Instance == null)
             return;
-        }
 
         EditorGUILayout.HelpBox("Steam", MessageType.None);
 
         var steamid = (int)((ulong)SteamUser.GetSteamID().m_SteamID);
         var steamname = SteamFriends.GetPersonaName();
 
-
-        GUILayout.Label(string.Format("Initialized: {0}", SteamManager.Initialized.ToString()));
+        GUILayout.Label(string.Format("Initialized: {0}", EditorSteamManager.Instance.Initialized.ToString()));
         GUILayout.Label(string.Format("Steam Running: {0}", SteamAPI.IsSteamRunning()));
         GUILayout.Label(string.Format("Steam ID: {0}", steamid));
         GUILayout.Label(string.Format("Steam User: {0}", steamname));
         GUILayout.Label(string.Format("Steam User: {0}", steamname));
+
+        if (GUILayout.Button("Break Busy"))
+            SteamUnity.Instance.busy = false;
 
         if (GUILayout.Button("Subscription info"))
         {
@@ -87,7 +85,7 @@ public class WorkshopWindow
             SteamUnity.Instance.QueryPublishedItems();
 
         if (GUILayout.Button("Submit Item"))
-            SteamUnity.Instance.SubmitItem(textFolder, textTag, textTitle, textDescription);
+            SteamUnity.Instance.SubmitItem(textTitle, textDescription, textTag, textManifest, texturePreview);
 
         EditorGUILayout.HelpBox("Steam Items", MessageType.None);
 
@@ -109,7 +107,7 @@ public class WorkshopWindow
                 textTitle = details.m_rgchTitle;
                 textDescription = details.m_rgchDescription;
                 textTag = details.m_rgchTags;
-                textFolder = details.m_pchFileName;
+                textManifest = details.m_pchFileName;
             }
 
             GUILayout.EndHorizontal();
@@ -142,7 +140,7 @@ public class WorkshopWindow
             
             GUILayout.BeginHorizontal();
             GUILayout.Label("Folder");
-            textFolder = GUILayout.TextField(textFolder);
+            textManifest = GUILayout.TextField(textManifest);
             var menu = new GenericMenu();
             if (GUILayout.Button("Select Bundle"))
             {
@@ -161,13 +159,15 @@ public class WorkshopWindow
 
                         var contentName = Path.GetFileNameWithoutExtension(content);
 
-                        menu.AddItem(new GUIContent(contentName), textFolder == content, o => { textFolder = Path.GetDirectoryName(content); }, null);
+                        menu.AddItem(new GUIContent(contentName), textManifest == content, o => { textManifest = content; }, null);
                     }
 
                     menu.ShowAsContext();
                 }
             }
             GUILayout.EndHorizontal();
+
+            texturePreview = EditorGUILayout.ObjectField(texturePreview, typeof(Texture2D), true) as Texture2D;
         }
     }
 }

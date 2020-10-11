@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Advertisements;
+using System.IO;
 
 #if UNITY_STANDALONE
 using Steamworks;
@@ -19,7 +20,9 @@ public class SteamUnity
     private CallResult<SubmitItemUpdateResult_t> OnSubmitItemUpdateResult;
     private CallResult<SteamUGCQueryCompleted_t> OnSteamUGCQueryCompleted;
 
-    private bool busy;
+    [System.NonSerialized]
+    public bool busy;
+
     private PublishedFileId_t working;
     private List<SteamUGCDetails_t> publishedItems = new List<SteamUGCDetails_t>();
     private UGCQueryHandle_t query;
@@ -28,8 +31,7 @@ public class SteamUnity
     {
         Instance = this;
 
-        //SteamAPI.Init();
-        //SteamAPI.RestartAppIfNecessary(SteamAppId);
+        SteamAPI.Init();
 
         OnCreateItemResult = CallResult<CreateItemResult_t>.Create(OnCreateItemResultFunc);
         OnSubmitItemUpdateResult = CallResult<SubmitItemUpdateResult_t>.Create(OnSubmitItemUpdateResultFunc);
@@ -116,7 +118,73 @@ public class SteamUnity
         busy = false;
     }
 
-    public void SubmitItem(string folder, string tag, string title, string description)
+    public void StageBundle(string manifest, Texture2D preview)
+    {
+        var pathStaging = Path.GetFullPath(Path.Combine(Application.dataPath, "../WorkshopStaging"));
+
+        var pathManifest = manifest;
+        var pathBundle = Path.Combine(Path.GetDirectoryName(pathManifest), Path.GetFileNameWithoutExtension(pathManifest));
+        var pathPreview = Path.Combine(pathStaging, "preview.jpg");
+
+        if (File.Exists(pathManifest) == false)
+        {
+            Debug.LogFormat("SteamUnity.StageBundle: manifest file missing...");
+            return;
+        }
+
+        if (File.Exists(pathBundle) == false)
+        {
+            Debug.LogFormat("SteamUnity.StageBundle: bundle file missing...");
+            return;
+        }
+
+        if (Directory.Exists(pathStaging))
+            Directory.Delete(pathStaging, true);
+
+        // just in case :sweat:
+        System.Threading.Thread.Sleep(100);
+
+        Directory.CreateDirectory(pathStaging);
+
+        if (Directory.Exists(pathStaging) == false)
+        {
+            Debug.LogFormat("SteamUnity.StageBundle: failed creating staging folder...");
+            return;
+        }
+
+        Debug.LogFormat("SteamUnity.StageBundle: copying files to staging folder {0}...", pathStaging);
+
+        File.Copy(pathManifest, Path.Combine(pathStaging, Path.GetFileName(pathManifest)), true); 
+        File.Copy(pathBundle, Path.Combine(pathStaging, Path.GetFileName(pathBundle)), true);
+
+        Debug.LogFormat("SteamUnity.SubmitItem: generating preview...");
+
+        var previewTexture = (Texture2D)null;
+
+        if (preview != null)
+        {
+            var dim = 512;
+
+            var rt = new RenderTexture(dim, dim, 32, RenderTextureFormat.ARGB32);
+
+            RenderTexture.active = rt;
+            Graphics.Blit(preview, rt);
+            var result = new Texture2D(dim, dim);
+            result.ReadPixels(new Rect(0, 0, dim, dim), 0, 0);
+            result.Apply();
+            previewTexture = result;
+        }
+        else
+        {
+            previewTexture = new Texture2D(512, 512);
+        }
+
+        var previewJpg = previewTexture.EncodeToJPG();
+
+        File.WriteAllBytes(pathPreview, previewJpg);
+    }
+
+    public void SubmitItem(string title, string description, string tag, string manifest, Texture2D preview)
     {
         if (busy)
             return;
@@ -128,24 +196,30 @@ public class SteamUnity
             return;
         }
 
-        Debug.LogFormat("SteamUnity.SubmitItem: updating item with content at {0}...", folder);
+        StageBundle(manifest, preview);
 
-        var preview = System.IO.Path.Combine(folder, "preview.jpg");
+        var pathStaging = Path.GetFullPath(Path.Combine(Application.dataPath, "../WorkshopStaging"));
+        var pathPreview = Path.Combine(pathStaging, "preview.jpg");
+
+        Debug.LogFormat("SteamUnity.SubmitItem: starting item update...");
+
         var tags = new List<string>() { tag, };
 
         var update = SteamUGC.StartItemUpdate(SteamAppId, working);
 
-        //SteamUGC.SetItemTitle(update, title);
-        //SteamUGC.SetItemDescription(update, description);
+        SteamUGC.SetItemTitle(update, title);
+        SteamUGC.SetItemDescription(update, description);
         //SteamUGC.SetItemMetadata(update, "metadata");
-        //SteamUGC.SetItemVisibility(update, ERemoteStoragePublishedFileVisibility.k_ERemoteStoragePublishedFileVisibilityPublic);
-        //SteamUGC.SetItemTags(update, tags);
-        SteamUGC.SetItemContent(update, folder);
-        SteamUGC.SetItemPreview(update, preview);
+        SteamUGC.SetItemVisibility(update, ERemoteStoragePublishedFileVisibility.k_ERemoteStoragePublishedFileVisibilityPublic);
+        SteamUGC.SetItemTags(update, tags);
+        SteamUGC.SetItemContent(update, pathStaging);
+        SteamUGC.SetItemPreview(update, pathPreview);
 
         var submit = SteamUGC.SubmitItemUpdate(update, "update");
 
         OnSubmitItemUpdateResult.Set(submit);
+
+        Debug.LogFormat("SteamUnity.SubmitItemUpdate: submitted.");
     }
 
     public void OnSubmitItemUpdateResultFunc(SubmitItemUpdateResult_t result, bool ioFailure)
